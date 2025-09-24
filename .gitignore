@@ -5,6 +5,7 @@ npm-debug.log*
 .env.local
 config.json
 token.txt
+sounds/
 
 *.log
 logs/

@@ -5,6 +5,11 @@ const { handleStatusCommand } = require("./status");
 const { handleResetCommand } = require("./reset");
 const { handleHelpCommand } = require("./help");
 const { handleDebugCommand } = require("./debug");
+const { handleElisCommand } = require("./elis");
+const { handleJoinCommand } = require("./join");
+const { handleLeaveCommand } = require("./leave");
+const { handlePlayCommand } = require("./play");
+const { handleSoundsCommand } = require("./sounds");
 
 const commands = {
   add: handleAddCommand,
@@ -14,7 +19,12 @@ const commands = {
   status: handleStatusCommand,
   reset: handleResetCommand,
   help: handleHelpCommand,
-  debug: handleDebugCommand
+  debug: handleDebugCommand,
+  elis: handleElisCommand,
+  enter: handleJoinCommand,
+  leave: handleLeaveCommand,
+  boop: handlePlayCommand,
+  sounds: handleSoundsCommand
 };
 
 module.exports = { commands };

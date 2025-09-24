@@ -12,6 +12,14 @@ async function handleHelpCommand(message) {
 **!start** - Start the tournament
 **!status** - Check tournament status
 **!reset** - Reset the tournament
+**!elis** - Learn about the plumpest pig at the farm
+
+**🎵 Voice Commands:**
+**!enter** - Join your voice channel
+**!leave** - Leave voice channel
+**!boop <sound>** - Play a sound (e.g., !boop kurt)
+**!sounds** - List available sounds
+
 **!help** - Show this help message
 
 **How it works:**

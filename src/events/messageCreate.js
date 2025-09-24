@@ -38,6 +38,21 @@ module.exports = {
         case "debug":
           await commands.debug(message, tournament);
           break;
+        case "elis":
+          await commands.elis(message);
+          break;
+        case "enter":
+          await commands.enter(message);
+          break;
+        case "leave":
+          await commands.leave(message);
+          break;
+        case "boop":
+          await commands.boop(message, args);
+          break;
+        case "sounds":
+          await commands.sounds(message);
+          break;
         default:
           // Ignore unknown commands
           break;
